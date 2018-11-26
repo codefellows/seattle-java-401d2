@@ -141,5 +141,15 @@ When our code would do something illegal as it runs, we instead get a runtime ex
   // causes a java.lang.StringIndexOutOfBoundsException
   ```
 
-### Lab Submissions
-Let's review how Git and GitHub work, and the proper workflow for submitting assignments.
+### Basic Loops
+In Java, we create arrays with a fixed size, and then we can loop through them with a basic for loop.
+```java
+String[] names = ["Alice", "Bob", "Carol"];
+for (int i = 0; i < names.length; i++) {
+  System.out.println(names[i]);
+}
+// we can also overwrite the thing at an index
+for (int i = 0; i < names.length; i++) {
+  names[i] = "Hello, " + names[i] + "!";
+  System.out.println(names[i]);
+}
