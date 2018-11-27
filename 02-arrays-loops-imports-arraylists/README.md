@@ -1,6 +1,8 @@
 # Class 2: Arrays, Loops, Imports, ArrayLists
 ## Resources
 * [Java Tutorials: docs.oracle.com](https://docs.oracle.com/javase/tutorial/)
+* [Whiteboard example image](../DataStructuresWhiteboard.PNG)
+* [Pseudocode overview](../Pseudocode.md)
 
 ## Agenda
 - Welcome, announcements
