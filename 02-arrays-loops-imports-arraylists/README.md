@@ -3,6 +3,7 @@
 * [Java Tutorials: docs.oracle.com](https://docs.oracle.com/javase/tutorial/)
 * [Whiteboard example image](../DataStructuresWhiteboard.PNG)
 * [Pseudocode overview](../Pseudocode.md)
+* [Workflow directions](../workflow.md)
 
 ## Agenda
 - Welcome, announcements
