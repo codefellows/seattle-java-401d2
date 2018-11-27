@@ -19,6 +19,25 @@ Developers will be able to:
 - Review of Git workflow
 - Lab intro
 
+## Our Git Workflow
+
+English description:
+- Create the repo (maybe on GitHub)
+- Use clone link to run `git clone`
+- MAKE SURE MASTER HAS AN INITIAL COMMIT
+  - .gitignore file
+- Check out a branch (separate your features! keep master clean!)
+- write some code :D
+- `add, commit` (still in the feature branch)
+  - have a good commit message
+- `push` to the feature branch on GitHub
+- Make a pull request on GitHub to your master branch
+  - get feedback, fix stuff
+- Merge the pull request
+- `git checkout master`
+- `git pull` on your master branch locally
+- go back to "Check out a branch" and repeat forever
+
 ## Git and GitHub Warmup
 1. Draw a diagram of how git and GitHub work. Include your computer and GitHub (in the cloud), each of which has both a master branch and a feature branch. Include arrows for how the code moves when performing each of these actions:
   - add
