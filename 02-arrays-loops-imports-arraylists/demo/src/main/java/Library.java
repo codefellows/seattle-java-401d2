@@ -13,4 +13,8 @@ public class Library {
         }
         return ans;
     }
+
+    public static void printArrayList(ArrayList<Integer> list) {
+
+    }
 }

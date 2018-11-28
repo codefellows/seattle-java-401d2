@@ -13,7 +13,8 @@ public class LibraryTest {
         assertTrue("someLibraryMethod should return 'true'", classUnderTest.someLibraryMethod());
     }
 
-    @Test public void testReverse() {
+    @Test
+    public void testReverse() {
         ArrayList<String> animals = new ArrayList<>();
         animals.add("cat");
         animals.add("dog");
@@ -21,6 +22,8 @@ public class LibraryTest {
         // dog is the first item
         // cat is the second item
         // the size is 2
-        assertTrue("reversed animals should have dog first", reversedAnimals.get(0) == animals.get(1));
+        assertEquals("reversed animals should have dog first", animals.get(1), reversedAnimals.get(0));
+        assertEquals("reversed animals should have cat second", animals.get(0), reversedAnimals.get(1));
+        assertEquals("reversed animals should have the same size as animals", animals.size(), reversedAnimals.size());
     }
 }
