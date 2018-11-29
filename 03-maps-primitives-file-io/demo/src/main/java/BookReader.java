@@ -1,3 +1,9 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.nio.charset.Charset;
+import java.nio.file.FileSystems;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.HashMap;
 
 /*
@@ -8,6 +14,7 @@ public class BookReader {
         return "Hello world.";
     }
 
+    // make a basic HashMap, for testing
     private HashMap<String, Integer> makeFakeHashMap() {
         HashMap<String, Integer> ans =  new HashMap<>();
         ans.put("hello", 2);
@@ -15,7 +22,37 @@ public class BookReader {
         return ans;
     }
 
+    public static HashMap<String, Integer> characterCounts() {
+        String[] characters = new String[]{"Alice", "Cat", "Hatter", "Queen of Hearts"};
+        // read the book (details, paths, etc)
+        Charset charset = Charset.forName("US-ASCII");
+        HashMap<String,Integer> counts = new HashMap<>();
+        for (String character : characters) {
+            counts.put(character, 0);
+        }
+        try(BufferedReader reader = Files.newBufferedReader(FileSystems.getDefault().getPath("resources", "alice.txt"),charset)) {
+            String currentLine = "";
+            while(currentLine != null) {
+                // tracking the names
+                // if i see one of the names:
+                for (String character : characters) {
+                    if(currentLine.contains(character)) {
+                        counts.put(character, counts.get(character) + 1);
+                    }
+                }
+                // increment the number of times seen
+                currentLine = reader.readLine();
+            }
+            return counts;
+        } catch (IOException e) {
+            System.out.println(e);
+            return null;
+        }
+    }
     public static void main(String[] args) {
         System.out.println(new BookReader().makeFakeHashMap());
+        System.out.println(BookReader.characterCounts());
+
+        // print out what I found
     }
 }

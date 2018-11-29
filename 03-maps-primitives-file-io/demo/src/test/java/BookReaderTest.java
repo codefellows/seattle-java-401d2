@@ -9,4 +9,9 @@ public class BookReaderTest {
         BookReader classUnderTest = new BookReader();
         assertNotNull("app should have a greeting", classUnderTest.getGreeting());
     }
+
+    @Test
+    public void testCharacterCounts() {
+
+    }
 }
