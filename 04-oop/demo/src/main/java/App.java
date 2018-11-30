@@ -12,7 +12,7 @@ public class App {
         System.out.println(new App().getGreeting());
 
         Flower ourRose = new Flower();
-        Flower ourRose = new Flower("rose", "red", 8, true, false);
+        Flower ourRose2 = new Flower("rose", "red", 8, true, false);
 //        ourRose.type = "rose";
         System.out.println(ourRose.type);
         System.out.println(ourRose.petals);
