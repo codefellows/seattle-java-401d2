@@ -21,7 +21,7 @@ public class Flower {
     }
 
     public Flower() {
-        
+
     }
     // class methods (we don't have any for this class)
 
