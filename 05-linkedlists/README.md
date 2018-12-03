@@ -10,6 +10,9 @@
 - System Adventures: Environment Variables
 - Warmup questions
 - Lecture
+  - you are all a computer now
+  - what does it look like to loop through a LinkedList?
+  - how do we grab the element at a particular index?
 - Lab intro
 
 ## Learning Objectives
