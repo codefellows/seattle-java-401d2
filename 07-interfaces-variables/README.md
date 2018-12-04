@@ -13,20 +13,21 @@
 1. What's the difference between an interface and a parent class?
 2. What are some different relationships that can exist between different classes?
 3. What's a `toString` method?
-
-## Learning Objectives
-1. The student will understand the difference between inheritance and interfaces.
-2. The student will be able to set up a hierarchy of classes that both inherit from a base class and implement at least one interface.
-
-## Lecture Outline
-
-### Interfaces vs Inheritance
-* Review inheritance
-    * no multiple inheritance
-* Implementing an interface
-    * naming conventions
-    * properties
-    * methods
+4. What's the output of this code? (predictions, don't run it)
+    ```java
+    int a = 5;
+    int b = a;
+    a = 6;
+    System.out.println(b);
+    ```
+5. What's the output of this code? (predictions, don't run it)
+    ```java
+    int[] nums = new int[]{1,2,3,4};
+    int[] moreNums = nums;
+    nums[0] = 7;
+    System.out.println(moreNums[0]);
+    ```
+6. Why does that make any sense?
 
 ### Lists vs. ArrayLists vs. LinkedLists
 
