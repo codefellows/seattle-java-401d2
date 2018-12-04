@@ -2,7 +2,7 @@
 
 ## Agenda
 - Announcements
-  - none?
+  - I'm leaving a bit early today and have all the meetings tomorrow
 - Code review
 - Daily Systems: files and the filesystem
 - Warmup questions
