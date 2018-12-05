@@ -27,6 +27,14 @@
     nums[0] = 7;
     System.out.println(moreNums[0]);
     ```
+
+5. What's the output of this code? (predictions, don't run it)
+    ```java
+    int[] nums = new int[]{1,2,3,4};
+    int[] moreNums = nums;
+    nums = new int[]{6,7,8,9};
+    System.out.println(moreNums[0]);
+    ```
 6. Why does that make any sense?
 
 ### Lists vs. ArrayLists vs. LinkedLists

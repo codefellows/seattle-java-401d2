@@ -1,4 +1,4 @@
-public class Food implements EnergyHaver {
+public class Food extends Object implements EnergyHaver {
     private int energy;
 
     public Food(int energy) {
@@ -7,5 +7,9 @@ public class Food implements EnergyHaver {
 
     public int getEnergy() {
         return this.energy;
+    }
+
+    public String toString() {
+        return "A food with energy " + this.energy;
     }
 }

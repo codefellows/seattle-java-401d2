@@ -18,4 +18,8 @@ public class Car implements EnergyHaver {
     public void drive(int miles) {
         this.gallonsInTank -= miles/this.mpg;
     }
+
+    public String toString() {
+        return "Car capacity=" + this.tankMaxCapacity + " gallonsInTank=" + this.gallonsInTank;
+    }
 }
