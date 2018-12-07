@@ -10,7 +10,7 @@ public class FilesystemQuoteGetter implements QuoteGetter {
         this.quotesPath = path;
     }
     @Override
-    public Quote getQuote() {
+    public Quote getQuote() throws IOException {
         if (this.quotes == null) {
             this.readQuotes();
         }
@@ -21,14 +21,7 @@ public class FilesystemQuoteGetter implements QuoteGetter {
         return this.quotes[(int)(Math.random() * this.quotes.length)];
     }
 
-    private void readQuotes() {
-        try {
-            this.quotes = FilesystemQuotes.getQuotes(this.quotesPath);
-        } catch (IOException e) {
-            this.quotes = new Quote[]{new Quote(
-                    "Michelle Ferreirae",
-                    "Sometimes, the filesystem does not like you.")
-            };
-        }
+    private void readQuotes() throws IOException {
+        this.quotes = FilesystemQuotes.getQuotes(this.quotesPath);
     }
 }
