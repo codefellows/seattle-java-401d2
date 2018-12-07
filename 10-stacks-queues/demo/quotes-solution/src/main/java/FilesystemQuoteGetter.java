@@ -25,7 +25,10 @@ public class FilesystemQuoteGetter implements QuoteGetter {
         try {
             this.quotes = FilesystemQuotes.getQuotes(this.quotesPath);
         } catch (IOException e) {
-            this.quotes = new Quote[]{new Quote("Michelle Ferreirae", "Sometimes, the filesystem does not like you.")};
+            this.quotes = new Quote[]{new Quote(
+                    "Michelle Ferreirae",
+                    "Sometimes, the filesystem does not like you.")
+            };
         }
     }
 }
