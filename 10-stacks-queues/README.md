@@ -6,13 +6,12 @@
 - Code review
     - LinkedLists
     - The Internet
-- Daily Systems: man pages
+- Daily Systems: echo, cat, redirecting output
 - Warmup questions
 - Java Packages
 - Lecture
     - Stacks
     - Queues
-- Lab intro
 
 ## Warmup Questions
 1. What's the difference between an object and a class?
