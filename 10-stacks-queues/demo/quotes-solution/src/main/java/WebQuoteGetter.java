@@ -31,7 +31,7 @@ public class WebQuoteGetter implements QuoteGetter {
         // convert the List<Quote> to json
         // write that json to the file
 
-        
+
         return answer;
     }
 }

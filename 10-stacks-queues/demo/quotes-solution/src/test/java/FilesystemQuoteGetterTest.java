@@ -6,6 +6,12 @@ import java.util.Set;
 
 import static org.junit.Assert.*;
 
+
+public class Queue implements java.util.Queue {
+    
+}
+
+
 public class FilesystemQuoteGetterTest {
 
     @Test

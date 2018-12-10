@@ -1,3 +1,5 @@
+import stacksandqueues.Stack;
+
 import java.io.IOException;
 
 /*
@@ -6,6 +8,8 @@ import java.io.IOException;
 public class App {
 
     public static void main(String[] args) {
+        Stack s = new Stack();
+        s.top;
         Quote q = null;
         try {
             QuoteGetter getter = new WebQuoteGetter();
