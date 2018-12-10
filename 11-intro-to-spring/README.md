@@ -21,6 +21,14 @@
     - MVC Revisited
 - Lab intro
 
+## Warmup Questions
+1. What is a path, on the internet?
+2. What is a method, in HTTP?
+3. What is a route?
+4. What is the job of a server?
+
+
+
 ## Learning Objectives
 * Students will be able to configure a Java project with Spring dependencies.
 * Students will be able to start a local server that serves static content.
