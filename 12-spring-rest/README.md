@@ -27,10 +27,11 @@
 
 ## Warmup Question
 Fill in this table of RESTful routes for a `BlogPost` resource. The first row is done for you.
-|Name of function | English description | HTTP method | Path | C/R/U/D?
-|-----------------|---------------------|-------------|------|---------
-|index            | get all blog posts  | GET         | `/blogposts` | R
-|                 | get one blog post   | | |
-|                 | add a new blog post | | |
-|                 | update a blog post  | | |
-|                 | delete a blog post  | | |
+
+|Name of function | English description | HTTP method | Path | C/R/U/D?|
+|-----------------|---------------------|-------------|------|---------|
+|index            | get all blog posts  | GET         | `/blogposts` | R|
+|                 | get one blog post   | | | |
+|                 | add a new blog post | | | |
+|                 | update a blog post  | | | |
+|                 | delete a blog post  | | | |
