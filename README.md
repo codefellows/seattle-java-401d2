@@ -34,11 +34,13 @@ There are several types of assignments that are required for this course, and th
 #### Complete/incomplete
 * Readings: All readings are visible at the beginning of the course. Each reading is due by the start of the lecture that covers that reading, and locks (no late submissions) at midnight on that day.
 * Daily Journals: Each daily journal will become available 2 hours before lecture, is due by the start of lecture, and locks at midnight on that day.
-* Code Challenges: Each code challenge is released at 5pm, to be worked on that night. The code challenge is due the next day by the start of lecture, and is graded as complete/incomplete. You may resubmit code challenges for up to 10 days after the assignment is due; code challenges lock after 10 days.
-* Career Coaching: Career coaching assignments are used during career coaching workshops; ensure you have completed the assignments by the start of the workshop. All career coaching assignments due before each workshop will lock on the day of the workshop.
 * Prework: You should have already finished this; if not, you should reach out to your instructor, and finish any remaining items ASAP.
 
-#### Graded out of 10 points
+#### Graded out of points
+All assignments graded out of a number of points lose 20% automatically for late submissions. (Resubmits after an on-time submission do not incur this penalty.)
+
+* Career Coaching: Career coaching assignments are used during career coaching workshops; ensure you have completed the assignments by the start of the workshop. All career coaching assignments due before each workshop will lock on the day of the workshop.
+* Code Challenges: Each code challenge is released at 5pm, to be worked on that night. The code challenge is due the next day by the start of lecture, and is graded as complete/incomplete. You may resubmit code challenges for up to 10 days after the assignment is due; code challenges lock after 10 days.
 * Labs: Each lab is released at 5pm, and should be worked on the next day during lab time. The lab is due by the start of the following lecture. You may resubmit labs for up to 10 days after the assignment is due; labs lock after 10 days.
 
 
