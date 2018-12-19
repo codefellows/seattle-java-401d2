@@ -4,11 +4,15 @@
 
 ## Step 2: create a controller for that model
 
-## Step 3: ApplicationUser implements UserDetailsService
+## Step 3: UserDetailsServiceImpl implements UserDetailsService
+
+gets a User from the database by username (make sure your repository has the method to make this easy!)
+
+## Step 4: ApplicationUser implements UserDetails
 
 use IntelliJ to implement the methods; make the boolean ones all return true
 
-## Step 4: WebSecurityConfig extends WebSecurityConfigurerAdapter
+## Step 5: WebSecurityConfig extends WebSecurityConfigurerAdapter
 
 - has a UserDetailsService
 - passwordEncoder bean
@@ -17,6 +21,7 @@ use IntelliJ to implement the methods; make the boolean ones all return true
 - configure HttpSecurity
     - cors? csrf?
     - matchers for URLs that are allowed
+        - ensure that login and signup URLs allowed; also consider homepage etc.
     - formLogin with login page set up
     - logout
 
@@ -28,7 +33,7 @@ use IntelliJ to implement the methods; make the boolean ones all return true
     }
 ```
 
-## Step 5: registration page
+## Step 6: registration page
 - create it w/ form
 - ensure it posts to a route your controller is ready for
 - check it's saving in the DB
@@ -38,7 +43,7 @@ use IntelliJ to implement the methods; make the boolean ones all return true
     SecurityContextHolder.getContext().setAuthentication(authentication);
 ```
 
-## Step 6: login page
+## Step 7: login page
 - create it w/ form
 - ensure it posts to the route you specified in web config
 - try it out!
