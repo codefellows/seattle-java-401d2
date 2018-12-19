@@ -4,9 +4,9 @@
 
 ## Step 2: create a controller for that model
 
-## Step 3: UserDetailsServiceImpl implements UserDetailsService
+## Step 3: ApplicationUser implements UserDetailsService
 
-`UserDetails userDetails = new User(appUser.getUsername(), appUser.getPassword(), new ArrayList<>());`
+use IntelliJ to implement the methods; make the boolean ones all return true
 
 ## Step 4: WebSecurityConfig extends WebSecurityConfigurerAdapter
 
@@ -19,6 +19,14 @@
     - matchers for URLs that are allowed
     - formLogin with login page set up
     - logout
+
+```
+    @Override
+    @Bean
+    public AuthenticationManager authenticationManagerBean() throws Exception {
+        return super.authenticationManagerBean();
+    }
+```
 
 ## Step 5: registration page
 - create it w/ form
