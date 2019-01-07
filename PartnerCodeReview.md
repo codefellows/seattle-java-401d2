@@ -8,6 +8,9 @@ Presentations are one great capstone to a project, but they're not the only way 
 You'll each take one hour to be the presenter/code author, and one hour to be the code reviewer/interviewer. (You can take a 10 minute break between these.) **You should take the full hour with each person**--if you run out of things to talk about, then you haven't gone in-depth enough on the code. These projects are large, and there should be a lot to look at and talk about!
 
 ### As the presenter/code author
+
+Before you begin, check out a new branch for any comments/modifications/feedback that you write during the review.
+
 You should start with a quick demo of your application, running locally on your machine. Then, you should open up the code in your IDE and walk your partner through it. There's no one right order in which to do this walkthrough, but here are some ideas:
 - start by listing out the routes that exist, and then dive into the code at each of those routes
 - start with the models that exist, then look at the routes associated with each model
@@ -37,3 +40,4 @@ Some general things to look for/ask about:
 - point out anywhere that's missing comments, or where their explanation is particularly necessary to understand how the app works.
 
 Note that for all of those questions, *it is okay to ask the question even if you are wrong*--that's how good discussions start! You should be interrupting with a question *at least every 2 minutes*. This is a conversation, not a one-sided presentation.
+
