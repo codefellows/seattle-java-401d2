@@ -9,6 +9,7 @@
 - Lecture
     - More Android Studio tips & tricks
         - dropdown in project pane: Android vs. Project
+        - themes!
     - XML overview
         - what is XML
         - layouts, colors, strings, and other xml files
