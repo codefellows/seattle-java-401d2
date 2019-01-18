@@ -2,9 +2,10 @@
 ## Agenda
 - Announcements
     - I'm growing a beard! I hope it's not a big deal!
-    - CCW is next Friday, don't forget
-    - Whiteboard finals will happen start of Week 9
+    - CCW is next Friday, don't forget.
+    - Whiteboard finals will happen start of Week 9.
     - Final projects: who is interested in doing a joint Python project? Teams coming out after lecture today!
+    - Remember to resubmit labs if you want them to be regraded.
 - Code review
     - How were interviews? Questions? Tips? Tricks?
     - Lab
