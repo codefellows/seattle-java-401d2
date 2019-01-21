@@ -17,6 +17,7 @@
 - Labs are still hard
     - another catchup day is coming! Probably tomorrow!
     - the feeling of not-knowing is the most similar to being an engineer in the wild
+    - this is a legit project that you can put on your resume/discuss in interviews
     - keep reaching out for help!
 - TAs are awesome
     - agreed
