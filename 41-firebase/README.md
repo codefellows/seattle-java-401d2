@@ -3,8 +3,10 @@
 ## Agenda
 - Announcements
     - Warning: family minor emergency, currently playing it by ear
+    - Michelle leaving around 5:15 today
     - Feedback review
     - Overview of the rest of the week
+    - Any whiteboarding questions?
 - Code review
     - TaskManager
 - Making Servers/Being The Cloud Is Hard
