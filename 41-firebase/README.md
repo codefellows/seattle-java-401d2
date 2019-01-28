@@ -15,6 +15,11 @@
     - how to Firebase
 - End early for whiteboard code challenge
 
+## Warmup Question
+
+1. In mobile development, why do you need a server to be involved at all? What jobs does the server do?
+
+
 ## Feedback Review
 - Really appreciate the focus on whiteboarding last week
     - open question: should I start building that in earlier next time?
@@ -46,10 +51,10 @@ Making sure people can use your apps
 
 taking payments, as easily as possible
 
-## Dependency Injection? We'll see how timing goes!
+### Dependency Injection? We'll see how timing goes!
 
 Dagger is kinda awesome!
 
-## What Comes Next
+### What Comes Next
 
 Talking about life as a developer after CF.
