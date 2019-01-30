@@ -5,6 +5,8 @@
     - Round 2 of whiteboarding is coming on Friday/Monday/Tuesday
         - Rounds 3 and on will be more ad-hoc
     - Tomorrow will be payments, Friday I'll probably yell about dependency injection
+    - Tuesday night Hack Night demo fair/presentations, sign up on Eventbrite
+    - let's talk about StringBuilder
 - Code review
     - TaskManager/Firebase: how goes it?
 - Let People Use Your Apps
