@@ -25,4 +25,3 @@
 ## Warmup Questions
 1. What different numerical relationships exist between data?
 2. How do those relationships look in a SQL database/table structure?
-3.
